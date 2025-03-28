@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    margin: 200px auto;
+    background-color: white;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+
+.natija{
+    height: 100px;
+    font-size: 60px;
+}
+
+.buyruqlar{
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buyruqlar button{
+    border-radius: 10px;
+}
+
+.ayirish{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 50px;
+    width: 60px;
+    height: 60px;
+    background-color: gray;
+    padding-bottom: 10px;
+}
+
+.reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 30px;
+    width: 100px;
+    height: 60px;
+    background-color: rgb(207, 207, 49);
+}
+
+.qushish{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 50px;
+    width: 60px;
+    height: 60px;
+    background-color: green;
+}
